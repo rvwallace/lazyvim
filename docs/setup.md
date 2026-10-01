@@ -67,3 +67,20 @@ directory.
 
 The enabled LazyVim extras are listed in [`lazyvim.json`](../lazyvim.json).
 Plugin versions are recorded in [`lazy-lock.json`](../lazy-lock.json).
+
+## Language support
+
+The configuration includes Ansible, Nushell, and Swift support.
+
+- Ansible uses `ansiblels` and `ansible-lint`.
+- Nushell uses the built-in `nu --lsp` server and the external `nufmt` formatter.
+- Swift uses `sourcekit-lsp` and the `swiftformat` formatter.
+
+Install the external tools before using their language support:
+
+```sh
+cargo install --git https://github.com/nushell/nufmt
+```
+
+LazyVim installs Mason-managed tools, including `ansible-lint` and
+`swiftformat`, through its normal plugin setup.

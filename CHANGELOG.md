@@ -30,3 +30,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   characters with the `gs` mapping group.
 - Added `mini.align` with `ga` and `gA` text alignment mappings.
 - Added `mini.splitjoin` with `gS` structural split and join mapping.
+- Added Ansible support with `ansiblels` and `ansible-lint`.
+- Added Swift support with `sourcekit-lsp`, Tree-sitter, and `swiftformat`.
+- Added `nufmt` formatting for Nushell files.
