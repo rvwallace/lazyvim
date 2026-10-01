@@ -9,6 +9,19 @@
 
 local number_group = vim.api.nvim_create_augroup("lazyvim_number_mode", { clear = true })
 
+local format_group = vim.api.nvim_create_augroup("lazyvim_format_options", { clear = true })
+
+vim.api.nvim_create_autocmd("FileType", {
+  group = format_group,
+  callback = function()
+    vim.schedule(function()
+      if vim.api.nvim_buf_is_valid(0) then
+        vim.opt_local.formatoptions:remove({ "c", "r", "o" })
+      end
+    end)
+  end,
+})
+
 vim.api.nvim_create_autocmd("InsertEnter", {
   group = number_group,
   callback = function()

@@ -6,6 +6,18 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### 2026-10-01
+
+#### Added
+
+- Added `p` in Visual mode to paste without replacing the yank register.
+- Added `J` to join lines without moving the cursor.
+- Added `gcA` to insert a comment at the end of the current line.
+
+#### Changed
+
+- Disabled automatic comment continuation when adding or wrapping lines.
+
 ### 2026-09-30
 
 #### Added
@@ -33,3 +45,4 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Added Ansible support with `ansiblels` and `ansible-lint`.
 - Added Swift support with `sourcekit-lsp`, Tree-sitter, and `swiftformat`.
 - Added `nufmt` formatting for Nushell files.
+- Added `jk` and `kj` mappings to exit insert mode.
