@@ -22,7 +22,7 @@ NVIM_APPNAME=lazyvim nvim path/to/file
 ```
 
 This keeps the LazyVim configuration and its Neovim data separate from other
-profiles, such as `scvim`.
+profiles.
 
 ## Shell functions
 

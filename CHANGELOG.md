@@ -21,6 +21,9 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 #### Changed
 
 - Disabled automatic comment continuation when adding or wrapping lines.
+- Updated the README with public setup, feature, requirement, and license
+  information.
+- Made the setup guide independent of any other local Neovim profile.
 
 ### 2026-09-30
 
