@@ -24,3 +24,5 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Enabled split previews for substitution commands.
 - Improved diff alignment with the patience algorithm and `linematch:60`.
 - Disabled the startup dashboard.
+- Added `zdiff.nvim` for multi-buffer Git diffs with `<leader>gV` for
+  uncommitted changes and `<leader>gM` for changes against `main`.
