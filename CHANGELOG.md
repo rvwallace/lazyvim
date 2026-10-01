@@ -10,6 +10,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 #### Added
 
+- Added Dial mappings to increment and decrement numbers, dates, and other
+  supported values.
+- Added Tree-sitter context headers for the current code block.
+- Added Git file support for commit messages and Git configuration files.
 - Added `p` in Visual mode to paste without replacing the yank register.
 - Added `J` to join lines without moving the cursor.
 - Added `gcA` to insert a comment at the end of the current line.
