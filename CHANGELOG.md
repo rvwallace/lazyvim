@@ -17,3 +17,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   functions.
 - Added `<leader>yf`, `<leader>yp`, and `<leader>yr` mappings to copy the
   current file name, absolute path, and relative path.
+- Set relative line numbers in normal mode and absolute line numbers in insert
+  mode.
+- Set folds to open by default when a file starts.
