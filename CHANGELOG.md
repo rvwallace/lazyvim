@@ -20,3 +20,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Set relative line numbers in normal mode and absolute line numbers in insert
   mode.
 - Set folds to open by default when a file starts.
+- Enabled case-insensitive filename completion.
+- Enabled split previews for substitution commands.
+- Improved diff alignment with the patience algorithm and `linematch:60`.
+- Disabled the startup dashboard.
