@@ -6,6 +6,12 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### 2026-11-16
+
+#### Changed
+
+- Updated the locked LazyVim and plugin revisions for use across machines.
+
 ### 2026-10-01
 
 #### Added
